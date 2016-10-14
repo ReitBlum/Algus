@@ -1,0 +1,59 @@
+login as: reit.blum
+reit.blum@tigu.hk.tlu.ee's password:
+Access denied
+reit.blum@tigu.hk.tlu.ee's password:
+Linux tigu.kolledz 3.2.0-4-amd64 #1 SMP Debian 3.2.81-1 x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Oct 13 23:19:32 2016 from m83-191-174-101.cust.tele2.ee
+reit.blum@tigu:~$ cd public_html
+reit.blum@tigu:~/public_html$ cd Java
+reit.blum@tigu:~/public_html/Java$ git clone https://github.com/ReitBlum/Algus.git
+Cloning into 'Algus'...
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+reit.blum@tigu:~/public_html/Java$ git add Tervitus.java
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+reit.blum@tigu:~/public_html/Java$ git add Tervitus.Java
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+reit.blum@tigu:~/public_html/Java$ git add Tervitus.Java
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+reit.blum@tigu:~/public_html/Java$ cd Algus
+reit.blum@tigu:~/public_html/Java/Algus$ git add Tervitus.java
+reit.blum@tigu:~/public_html/Java/Algus$ git commit -m "Tervitusfaili lisamine"
+[master fc330a6] Tervitusfaili lisamine
+ Committer: Reit Blum <reit.blum@tigu.hk.tlu.ee>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+)
+ create mode 100644 Tervitus.java
+reit.blum@tigu:~/public_html/Java/Algus$ git push origin master
+Username for 'https://github.com': Reitblum
+Password for 'https://Reitblum@github.com':
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 383 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ReitBlum/Algus.git
+   eda4dc1..fc330a6  master -> master
+reit.blum@tigu:~/public_html/Java/Algus$
